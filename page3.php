@@ -10,5 +10,5 @@ $pageCount = $_SESSION['count'];
 echo 'Страница открыта: ' . $pageCount . ' раз(а)';
 
 if ($pageCount % 3 === 0){
-        header ('Location: http://localhost:8000/page4.php');
+        header ('Location: /page4.php');
     }
